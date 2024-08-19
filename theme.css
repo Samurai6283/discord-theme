@@ -1,0 +1,207 @@
+/**
+ * @name Elysian Elegance
+ * @author Claude
+ * @version 1.0
+ * @description A luxurious and sophisticated theme for BetterDiscord
+ */
+
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lora:wght@400;700&display=swap');
+
+/* Main background */
+.app-2rEoOp {
+  background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
+}
+
+/* Typography */
+body {
+  font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+}
+
+/* Borders and shadows */
+.container-1D34oG, .container-3w7J-x, .peopleList-3c4jOR {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #4a5c6b, #2c3e50);
+  border-radius: 4px;
+}
+
+/* Buttons and icons */
+.button-38aScr {
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.button-38aScr:hover {
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Custom icon colors */
+.icon-22AiRD {
+  color: #b0bec5;
+}
+
+/* User profiles */
+.avatar-1BDn8e {
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Channel list */
+.sidebar-2K8pFh {
+  background: rgba(44, 62, 80, 0.8);
+}
+
+/* Message area */
+.chatContent-a9vAAp {
+  background: rgba(26, 42, 58, 0.9);
+}
+
+/* Animated transitions */
+.container-1D34oG, .container-3w7J-x {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Enhanced hover effects */
+.member-3-YXUe:hover, .channel-2QD9_O:hover {
+  background: linear-gradient(90deg, rgba(255,215,0,0.1) 0%, rgba(255,215,0,0) 100%);
+}
+
+/* Custom emote menu */
+.emojiPicker-3PwZFl {
+  background: rgba(44, 62, 80, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Voice channel enhancements */
+.voiceUser-14U_Ns {
+  background: rgba(70, 90, 110, 0.4);
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+/* Custom status indicators */
+.status-1AY8sU {
+  border: 2px solid #2c3e50;
+}
+
+.status-1AY8sU.online-2S838R { background-color: #2ecc71; }
+.status-1AY8sU.idle-3DEnRT { background-color: #f39c12; }
+.status-1AY8sU.dnd-1_xrcq { background-color: #e74c3c; }
+.status-1AY8sU.offline-3qoTek { background-color: #95a5a6; }
+
+/* Message hover effect */
+.message-2qnXI6:hover {
+  background: rgba(255, 255, 255, 0.03);
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Custom code block styling */
+.markup-2BOw-j code {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* Elegant separator lines */
+.divider-3573oO {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Enhanced mention styling */
+.mention {
+  background-color: rgba(255, 215, 0, 0.1);
+  color: #ffd700;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+/* Custom tooltip */
+.tooltip-2QfLtc {
+  background: rgba(44, 62, 80, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Sleek server list */
+.wrapper-1Rf91z {
+  background: rgba(26, 42, 58, 0.7);
+}
+
+.pill-31IEus {
+  background: #ffd700;
+}
+
+/* Refined input box */
+.channelTextArea-rNsIhG {
+  background: rgba(44, 62, 80, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Elegant file upload area */
+.uploadModal-2ifh8j {
+  background: rgba(44, 62, 80, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom role colors */
+.role-2irmRk {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Refined search bar */
+.searchBar-3dMhjb {
+  background: rgba(44, 62, 80, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Elegant modal design */
+.modal-yWgWj- {
+  background: rgba(26, 42, 58, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom emoji reactions */
+.reactionInner-15NvIl {
+  background: rgba(44, 62, 80, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Sleek settings menu */
+.sidebarRegionScroller-3MXcoP {
+  background: rgba(26, 42, 58, 0.8);
+}
+
+.contentRegionScroller-26nc1e {
+  background: rgba(44, 62, 80, 0.6);
+}
+
+/* Customizable accent color */
+:root {
+  --accent-color: #ffd700;
+}
+
+.selected-aXhQR6 {
+  background-color: var(--accent-color) !important;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: all 0.2s ease;
+}
