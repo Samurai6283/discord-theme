@@ -1,13 +1,3 @@
-/**
- * @name Elysian Elegance
- * @author Claude
- * @version 1.0
- * @description A luxurious and sophisticated theme for BetterDiscord
- */
-
-/* Import custom fonts */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Lora:wght@400;700&display=swap');
-
 /* Main background */
 .app-2rEoOp {
   background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
